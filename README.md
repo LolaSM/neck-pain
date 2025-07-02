@@ -9,16 +9,17 @@ The goal is to explore the potential of machine learning and deep learning model
 Data was captured using the HTC Vive Pro Eye system while participants performed the FarmDay task in virtual reality. From the 3D time-series data, temporal features such as velocity, acceleration, and displacement were extracted for analysis.
 
 ## Repository Structure
-
+```
 neck-pain/
- MATLAB/
-   comparison_time_series_subjectA_subjectB.m
-   patients_data_speed_acceleration.m
- RNN_LSTM.ipynb
- RNN_LSTM_dropout.ipynb
- comparison_performance_classification_models.ipynb
- tablaVectores_AB_speed_acceleration.csv
- tablagrupos_AB_raw.csv
+├── MATLAB/
+│   ├── comparison_time_series_subjectA_subjectB.m
+│   └── patients_data_speed_acceleration.m
+├── RNN_LSTM.ipynb
+├── RNN_LSTM_dropout.ipynb
+├── comparison_performance_classification_models.ipynb
+├── tablaVectores_AB_speed_acceleration.csv
+└── tablagrupos_AB_raw.csv
+```
 
 ## Folder and File Descriptions
 
