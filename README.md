@@ -25,14 +25,14 @@ neck-pain/
 
 ### MATLAB/
 Contains preprocessing scripts developed in **MATLAB R2022b** for:
-- **`patients_data_speed_acceleration.m`**: Feature engineering -- calculation and extraction of statistical descriptors (mean, std, skw, kur) of velocity and acceleration from raw position data for each axis.
-- **`comparison_time_series_subjectA_subjectB.m`**: time-series visualization for comparison between group A and B.
+- **`patients_data_speed_acceleration.m`**: Feature engineering -- calculation and extraction of statistical descriptors (mean, std, skw, kur) of velocity and acceleration from raw position data for each axis
+- **`comparison_time_series_subjectA_subjectB.m`**: time-series visualization for comparison between group A and B
 
 ### Jupyter Notebooks 
 Developed in Google Colab:
 - **`comparison_performance_classification_models.ipynb`**:
   - Exploratory data analysis of the features with Histograms and Q-Q plots
-  - Training and comparison of classical ML models (e.g., SVM, Random Forest, MLP) using manually extracted features of speed and acceleration and nested cross-validation.
+  - Training and comparison of classical ML models (e.g., SVM, Random Forest, MLP) using manually extracted features of speed and acceleration and nested cross-validation
 - **`RNN_LSTM.ipynb`**: Baseline LSTM model for classifying neck pain based on raw time-series data. Requires GPU acceleration
 - **`RNN_LSTM_dropout.ipynb`**: LSTM architecture adding a dropout layer. Requires GPU acceleration. Requires GPU acceleration
 
